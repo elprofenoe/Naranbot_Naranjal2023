@@ -1,5 +1,5 @@
-namespace Naranbot{
-export function Parar(): void {
+namespace naranBot{
+export function parar(): void {
     basic.showIcon(IconNames.SmallSquare)
     pins.digitalWritePin(DigitalPin.P0, 0)
     pins.digitalWritePin(DigitalPin.P1, 0)
@@ -13,7 +13,7 @@ export function adelante(): void {
     pins.digitalWritePin(DigitalPin.P2, 1)
     pins.digitalWritePin(DigitalPin.P8, 0)
 }
-export function Girar_Derecha(): void {
+export function girar_Derecha(): void {
     basic.showArrow(ArrowNames.East)
     pins.digitalWritePin(DigitalPin.P0, 0)
     pins.digitalWritePin(DigitalPin.P1, 1)
@@ -27,7 +27,7 @@ export function atras(): void {
     pins.digitalWritePin(DigitalPin.P2, 0)
     pins.digitalWritePin(DigitalPin.P8, 1)
 }
-export function Girar_Izquierda(): void {
+export function girar_Izquierda(): void {
     basic.showArrow(ArrowNames.West)
     pins.digitalWritePin(DigitalPin.P0, 1)
     pins.digitalWritePin(DigitalPin.P1, 0)
